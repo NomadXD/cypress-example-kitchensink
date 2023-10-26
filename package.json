@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "npm run lint",
-    "start": "ELECTRON_RUN_AS_NODE=1 npx cypress run --headless --browser chrome",
+    "start": "ELECTRON_RUN_AS_NODE=1 npx cypress run --record --headless --browser chrome",
     "dev": "npm start",
     "test": "npm start & cypress run",
     "pretest": "npm run lint",
