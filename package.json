@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "npm run lint",
-    "start": "npm install -g cypress;cypress run",
+    "start": "npx cypress run --headless",
     "dev": "npm start",
     "test": "npm start & cypress run",
     "pretest": "npm run lint",
